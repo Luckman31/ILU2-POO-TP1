@@ -26,6 +26,7 @@ public class Personnage {
 
 	public void parler(String texte) {
 		System.out.println(prendreParole() + "« " + texte + "»");
+
 	}
 
 	protected String prendreParole() {
