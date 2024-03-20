@@ -9,12 +9,12 @@ import villagegaulois.Village;
 public class Scenario {
 
 	public static void main(String[] args) {
-		Village village = new Village("le village des irréductibles", 10, 5);
+		Village village = new Village("le village des irrï¿½ductibles", 10, 5);
 		Chef abraracourcix = new Chef("Abraracourcix", 10, village);
 		village.setChef(abraracourcix);
 		Druide druide = new Druide("Panoramix", 2, 5, 10);
-		Gaulois obelix = new Gaulois("Obélix", 25);
-		Gaulois asterix = new Gaulois("Astérix", 8);
+		Gaulois obelix = new Gaulois("Obï¿½lix", 25);
+		Gaulois asterix = new Gaulois("Astï¿½rix", 8);
 		Gaulois assurancetourix = new Gaulois("Assurancetourix", 2);
 		Gaulois bonemine = new Gaulois("Bonemine", 7);
 		
@@ -40,7 +40,7 @@ public class Scenario {
 		System.out.println(etalFleur.acheterProduit(15, obelix));
 		System.out.println(etalFleur.acheterProduit(15, assurancetourix));
 		System.out.println(village.partirVendeur(bonemine));
-		System.out.println(village.afficherMarche());
+		System.out.println(village.afficherMarche()); 
 	}
 
 }
